@@ -1,0 +1,8 @@
+POST http://localhost:3003/notes
+content-type: application/json
+
+{
+    "content": "VScodes REST client is the best",
+    "important": true,
+    "date": "Thu, 12 May 2022 14:05:30 GMT"
+}
