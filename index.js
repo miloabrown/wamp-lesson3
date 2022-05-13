@@ -20,7 +20,7 @@ app.use(bodyParser.json());
 let notes = [
   {
     id: 1,
-    content: "HTML on helppoa",
+    content: "HTML is easy",
     date: "2017-12-10T17:30:31.098Z",
     important: true,
   },
