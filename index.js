@@ -14,6 +14,7 @@ const logger = (req, res, next) => {
 
 app.use(cors());
 app.use(logger);
+app.use(express.static("build"));
 app.use(bodyParser.json());
 
 let notes = [
